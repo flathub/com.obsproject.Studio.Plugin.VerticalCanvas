@@ -22,10 +22,13 @@ modules:
       - type: git
         url: https://github.com/Aitum/obs-vertical-canvas
         tag: 1.1.0
-        commit: 6e6aab5ae8fca8290aa7f970dcf5a54248fbb6ec
+        commit: 08a5a3d6df8a74124913e5ccdf2fbc2b1dbcfbe3
         x-checker-data:
           type: git
           is-main-source: true
           tag-pattern: ^([\d.]+)$
       - type: file
         path: com.obsproject.Studio.Plugin.VerticalCanvas.metainfo.xml
+      - type: patch
+        paths:
+          - patches/1.1.0-build-fix.patch

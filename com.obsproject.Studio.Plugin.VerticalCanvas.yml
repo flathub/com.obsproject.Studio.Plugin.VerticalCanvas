@@ -29,6 +29,3 @@ modules:
           tag-pattern: ^([\d.]+)$
       - type: file
         path: com.obsproject.Studio.Plugin.VerticalCanvas.metainfo.xml
-      - type: patch
-        paths:
-          - patches/1.1.0-build-fix.patch

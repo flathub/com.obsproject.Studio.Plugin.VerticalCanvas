@@ -21,8 +21,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Aitum/obs-vertical-canvas
-        tag: 1.2.4
-        commit: 18923f31ceb464c90b1698b5c7e3536e27fc87a7
+        tag: 1.2.5
+        commit: f61998e175a88a6e16d893c735b9fa6968525763
         x-checker-data:
           type: git
           is-main-source: true

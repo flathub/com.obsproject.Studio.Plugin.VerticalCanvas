@@ -3,7 +3,9 @@
   <id>com.obsproject.Studio.Plugin.VerticalCanvas</id>
   <extends>com.obsproject.Studio</extends>
   <name>Vertical Canvas</name>
-  <developer_name>Aitum Team</developer_name>
+  <developer id="tv.aitum">
+    <name>Aitum Team</name>
+  </developer>
   <summary>Add a vertical canvas to stream and record in secondary resolution, by Aitum</summary>
   <url type="homepage">https://aitum.tv/vertical</url>
   <url type="vcs-browser">https://github.com/Aitum/obs-vertical-canvas</url>

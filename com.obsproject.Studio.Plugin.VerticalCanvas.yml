@@ -5,7 +5,6 @@ runtime-version: stable
 sdk: org.kde.Sdk//6.5
 build-extension: true
 separate-locales: false
-appstream-compose: false
 build-options:
   prefix: /app/plugins/VerticalCanvas
 modules:
@@ -16,8 +15,6 @@ modules:
       - -DBUILD_OUT_OF_TREE=On
     post-install:
       - install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo ${FLATPAK_ID}.metainfo.xml
-      - appstream-compose --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST} --origin=flatpak
-        ${FLATPAK_ID}
     sources:
       - type: git
         url: https://github.com/Aitum/obs-vertical-canvas

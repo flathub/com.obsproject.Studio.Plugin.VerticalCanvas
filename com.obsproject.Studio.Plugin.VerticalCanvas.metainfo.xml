@@ -14,7 +14,16 @@
   <project_license>GPL-2.0</project_license>
   <releases>
     <release version="1.4.6" date="2024-07-17">
-      <description></description>
+      <description>
+        <ul>
+          <li>Improve installer by not auto appending 'obs-studio' when selecting a directory</li>
+          <li>Fix for auto starting backtrack when main replay buffer starts</li>
+          <li>Fix for preview becoming black after stopping all outputs on the Vertical canvas</li>
+          <li>Fix crash when starting main stream</li>
+          <li>Prefix all vertical encode sessions so that debugging is easier in the future</li>
+          <li>Fix for Flatpak OBS 30.2 builds</li>
+        </ul>
+      </description>
     </release>
     <release version="1.4.5" date="2024-06-27">
       <description/>

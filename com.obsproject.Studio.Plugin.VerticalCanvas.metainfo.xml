@@ -14,7 +14,12 @@
   <project_license>GPL-2.0</project_license>
   <releases>
     <release version="1.4.7" date="2024-07-23">
-      <description></description>
+      <description>
+        <ul>
+          <li>Add enable and disable backtrack hotkeys</li>
+          <li>Fix backtrack always starting</li>
+        </ul>
+      </description>
     </release>
     <release version="1.4.6" date="2024-07-17">
       <description>

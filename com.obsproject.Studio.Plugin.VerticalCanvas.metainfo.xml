@@ -13,6 +13,19 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
   <releases>
+    <release version="1.5.0" date="2024-11-28">
+      <description>
+        <ul>
+          <li>Requires OBS 30</li>
+          <li>Added new NVENC encoder support (OBS 31)</li>
+          <li>Added hotkeys for pause, unpause, split recording, chapter marker</li>
+          <li>Added file split settings</li>
+          <li>Fixed restarting streams issue when new settings set (via Aitum Multistream)</li>
+          <li>Fixed crash when destroying view</li>
+          <li>Added Bengali Language (rez1coder)</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.4.10" date="2024-10-09">
       <description>
         <ul>

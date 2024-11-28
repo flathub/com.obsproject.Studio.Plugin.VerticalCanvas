@@ -10,16 +10,20 @@ build-options:
 modules:
   - name: obs-vertical-canvas
     buildsystem: cmake-ninja
+    builddir: true
     config-opts:
-      - -DCMAKE_BUILD_TYPE=Release
+      # TODO - use FLATPAK_ARCH when available: https://github.com/flatpak/flatpak-builder/issues/340#issuecomment-1177355121
+      - --preset linux-ci-x86_64
       - -DBUILD_OUT_OF_TREE=On
+      # Correct build dir in preset
+      - -B ../_flatpak_build
     post-install:
-      - install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo ${FLATPAK_ID}.metainfo.xml
+      - install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo ${FLATPAK_BUILDER_BUILDDIR}/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: git
         url: https://github.com/Aitum/obs-vertical-canvas
-        tag: 1.4.10
-        commit: 5394c26827abbb991810824a10ee2c6802496909
+        tag: 1.5.0
+        commit: 4d51ac2b3d62a2d8c321ce6904f474c7ba30c398
         x-checker-data:
           type: git
           is-main-source: true

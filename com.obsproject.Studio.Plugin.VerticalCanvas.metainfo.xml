@@ -13,6 +13,15 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
   <releases>
+    <release version="1.5.2" date="2025-01-16">
+      <description>
+        <ul>
+          <li>Fixed potential deadlock on first show of spacing labels</li>
+          <li>Fixed canvas display when opening dock undocked multiple times</li>
+          <li>Fixed potential crash on exit</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.5.1" date="2024-12-19">
       <description>
         <ul>

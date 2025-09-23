@@ -13,7 +13,7 @@ modules:
     builddir: true
     config-opts:
       # TODO - use FLATPAK_ARCH when available: https://github.com/flatpak/flatpak-builder/issues/340#issuecomment-1177355121
-      - --preset linux-ci-x86_64
+      - --preset ubuntu-ci-x86_64
       - -DBUILD_OUT_OF_TREE=On
       # Correct build dir in preset
       - -B ../_flatpak_build

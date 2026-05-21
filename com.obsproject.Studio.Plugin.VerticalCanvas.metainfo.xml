@@ -13,8 +13,11 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
   <releases>
-    <release version="1.6.3" date="2026-04-14">
+    <release version="1.6.4" date="2026-05-21">
       <description></description>
+    </release>
+    <release version="1.6.3" date="2026-04-14">
+      <description/>
     </release>
     <release version="1.6.2" date="2026-02-05">
       <description/>

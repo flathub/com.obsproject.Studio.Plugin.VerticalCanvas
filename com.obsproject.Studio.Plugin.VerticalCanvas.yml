@@ -2,7 +2,7 @@ id: com.obsproject.Studio.Plugin.VerticalCanvas
 branch: stable
 runtime: com.obsproject.Studio
 runtime-version: stable
-sdk: org.freedesktop.Sdk//25.08
+sdk: org.freedesktop.Sdk//26.08
 build-extension: true
 separate-locales: false
 build-options:
@@ -22,8 +22,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Aitum/obs-vertical-canvas
-        tag: 1.6.6
-        commit: 106a55398d2cfa7aa039b02424c6a8d8619b6966
+        tag: 1.6.7
+        commit: 0d6317019cc299d28d1508b461ac902e57566c50
         x-checker-data:
           type: git
           is-main-source: true
